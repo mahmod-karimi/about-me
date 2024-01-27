@@ -4600,3 +4600,26 @@ a#relatedd {
 .demos-main {
     background: #ffffff;
 }
+
+.sample-project-list img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 900px) {
+    .sample-project-list div:first-child img {
+        margin-top: 100px;
+    }
+    .sample-project-list-sm {
+        display: none;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .sample-project-list div {
+        margin-bottom: 10px;
+    }
+    .sample-project-list-xs {
+        display: none;
+    }
+}
+    
